@@ -1,0 +1,12 @@
+# Ignore WordPress core files
+wp-admin/
+wp-includes/
+wp-content/uploads/
+wp-content/cache/
+wp-content/backups/
+wp-content/upgrade/
+wp-config.php
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
