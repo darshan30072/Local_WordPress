@@ -1,0 +1,41 @@
+.clms-courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.clms-course {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+}
+.clms-course-curriculum ul {
+  list-style: none;
+  padding: 0;
+}
+.clms-course-curriculum li {
+  background: #f9f9f9;
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+.clms-course-single {
+  width: 1320px;
+  margin: auto;
+}
+.comment-respond {
+  background-color: lightgray;
+  margin: 20px 0;
+}
+.chapter {
+  min-height: 300px;
+  margin-top: 20px;
+}
+.clms-quiz-single {
+  width: 1320px;
+  margin: auto;
+}
+.clms-quiz-form {
+  margin: 20px 0;
+  background-color: lightgrey;
+  padding: 10px 20px;
+}

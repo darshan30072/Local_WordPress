@@ -1,0 +1,468 @@
+/*
+
+TemplateMo 559 Zay Shop
+
+https://templatemo.com/tm-559-zay-shop
+
+---------------------------------------------
+Table of contents
+------------------------------------------------
+1. Typography
+2. General
+3. Nav
+4. Hero Carousel
+5. Accordion
+6. Shop
+7. Product
+8. Carousel Hero
+9. Carousel Brand
+10. Services
+11. Contact map
+12. Footer
+13. Small devices (landscape phones, 576px and up)
+14. Medium devices (tablets, 768px and up)
+15. Large devices (desktops, 992px and up)
+16. Extra large devices (large desktops, 1200px and up)
+--------------------------------------------- */
+
+/* Typography */
+body,
+ul,
+li,
+p,
+a,
+label,
+input,
+div {
+  font-family: "Poppins";
+  font-size: 18px !important;
+  font-weight: 300 !important;
+  text-decoration: none;
+}
+.h1 {
+  font-family: "Poppins";
+  font-size: 48px !important;
+  font-weight: 200 !important;
+}
+.h2 {
+  font-family: "Poppins";
+  font-size: 30px !important;
+  font-weight: 300;
+}
+.h3 {
+  font-family: "Poppins";
+  font-size: 22px !important;
+}
+/* General */
+.logo {
+  font-weight: 500 !important;
+}
+.text-warning {
+  color: #ede861 !important;
+}
+.text-muted {
+  color: #bcbcbc !important;
+}
+.text-success {
+  color: #59ab6e !important;
+}
+.text-light {
+  color: #cfd6e1 !important;
+}
+.bg-dark {
+  background-color: #212934 !important;
+}
+.bg-light {
+  background-color: #e9eef5 !important;
+}
+.bg-black {
+  background-color: #1d242d !important;
+}
+.bg-success {
+  background-color: #59ab6e !important;
+}
+.btn-success {
+  background-color: #59ab6e !important;
+  border-color: #56ae6c !important;
+}
+.pagination .page-link:hover {
+  color: #000;
+}
+.pagination .page-link:hover,
+.pagination .page-link.active {
+  background-color: #69bb7e;
+  color: #fff;
+}
+/* Nav */
+#templatemo_nav_top {
+  min-height: 40px;
+}
+#templatemo_nav_top * {
+  font-size: 0.9em !important;
+}
+#templatemo_main_nav a {
+  color: #212934;
+}
+#templatemo_main_nav a:hover {
+  color: #69bb7e;
+}
+#templatemo_main_nav .navbar .nav-icon {
+  margin-right: 20px;
+}
+
+/* Reset default */
+.navbar-nav .nav-link {
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+  padding-bottom: 5px; /* adjust spacing */
+}
+
+/* On active menu item (current page) */
+.navbar-nav .current-menu-item > a,
+.navbar-nav .current_page_item > a {
+  border-bottom: 2px solid #198754;
+  padding: 0 10px 10px;
+}
+
+/* Hero Carousel */
+#template-mo-zay-hero-carousel {
+  background: #efefef !important;
+}
+/* Accordion */
+.templatemo-accordion a {
+  color: #000;
+}
+.templatemo-accordion a:hover {
+  color: #333d4a;
+}
+/* Shop */
+.shop-top-menu a:hover {
+  color: #69bb7e !important;
+}
+/* Product */
+.product-wap {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.product-wap .product-color-dot.color-dot-red {
+  background: #f71515;
+}
+.product-wap .product-color-dot.color-dot-blue {
+  background: #6db4fe;
+}
+.product-wap .product-color-dot.color-dot-black {
+  background: #000000;
+}
+.product-wap .product-color-dot.color-dot-light {
+  background: #e0e0e0;
+}
+.product-wap .product-color-dot.color-dot-green {
+  background: #0bff7e;
+}
+.card.product-wap .card .product-overlay {
+  background: rgba(0, 0, 0, 0.2);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+}
+.card.product-wap:hover .card .product-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+.card.product-wap a {
+  color: #000;
+}
+#carousel-related-product .slick-slide:focus {
+  outline: none !important;
+}
+#carousel-related-product .slick-dots li button:before {
+  font-size: 15px;
+  margin-top: 20px;
+}
+/* Brand */
+.brand-img {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.brand-img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+/* Carousel Hero */
+#template-mo-zay-hero-carousel .carousel-indicators li {
+  margin-top: -50px;
+  background-color: #59ab6e;
+}
+#template-mo-zay-hero-carousel .carousel-control-next i,
+#template-mo-zay-hero-carousel .carousel-control-prev i {
+  color: #59ab6e !important;
+  font-size: 2.8em !important;
+}
+/* Carousel Brand */
+.tempaltemo-carousel .h1 {
+  font-size: 0.5em !important;
+  color: #000 !important;
+}
+/* Services */
+.services-icon-wap {
+  transition: 0.3s;
+}
+.services-icon-wap:hover,
+.services-icon-wap:hover i {
+  color: #fff;
+}
+.services-icon-wap:hover {
+  background: #69bb7e;
+}
+/* Contact map */
+.leaflet-control a,
+.leaflet-control {
+  font-size: 10px !important;
+}
+.form-control {
+  border: 1px solid #e8e8e8;
+}
+/* Footer */
+#tempaltemo_footer a {
+  color: #dcdde1;
+}
+#tempaltemo_footer a:hover {
+  color: #68bb7d;
+}
+#tempaltemo_footer ul.footer-link-list li {
+  padding-top: 10px;
+}
+#tempaltemo_footer ul.footer-icons li {
+  width: 2.6em;
+  height: 2.6em;
+  line-height: 2.6em;
+}
+#tempaltemo_footer ul.footer-icons li:hover {
+  background-color: #cfd6e1;
+  transition: 0.5s;
+}
+#tempaltemo_footer ul.footer-icons li:hover i {
+  color: #212934;
+  transition: 0.5s;
+}
+#tempaltemo_footer .border-light {
+  border-color: #2d343f !important;
+}
+
+/* Footer Nav */
+.footer-nav {
+  list-style: none; /* remove bullets */
+  padding: 0;
+  margin: 0;
+}
+.footer-nav a {
+  padding: 0 18px 10px 3px;
+}
+.footer-nav li {
+  color: #fff; /* footer text color */
+  text-decoration: none;
+  padding-bottom: 4px; /* space for border effect */
+  margin: 30px 0;
+  transition: all 0.3s ease;
+}
+.footer-nav a:hover {
+  color: #0d6efd; /* change link color on hover */
+}
+/* Active menu item */
+.footer-nav .current-menu-item a,
+.footer-nav .current_page_item a {
+  border-bottom: 2px solid #fff; /* white underline for active link */
+}
+
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+*/
+/* Small devices (landscape phones, 576px and up)*/
+.product-wap .h3,
+.product-wap li,
+.product-wap i,
+.product-wap p {
+  font-size: 12px !important;
+}
+.product-wap .product-color-dot {
+  width: 6px;
+  height: 6px;
+}
+
+@media (min-width: 576px) {
+  .tempaltemo-carousel .h1 { 
+    font-size: 1em !important;
+  }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  #template-mo-zay-hero-carousel .carousel-item {
+    min-height: 30rem !important;
+  }
+  .product-wap .h3,
+  .product-wap li,
+  .product-wap i,
+  .product-wap p {
+    font-size: 18px !important;
+  }
+  .product-wap .product-color-dot {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+
+.site-content {
+  max-width: 1320px;
+  min-height: 341px;
+  margin-inline: auto; /* centers content horizontally */
+  padding: 0;
+  width: 100%;
+}
+.wp-block-group {
+  padding: 0 !important;
+}
+body .is-layout-flex {
+  justify-content: center;
+}
+body.page-about_us .site-main {
+  max-width: none;
+  margin: 0;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.post-grid .grid-item {
+  border: 1px solid #eee;
+  padding: 15px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.post-thumbnail img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.post-title {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.custom-contact-form {
+  background: #dbdbdb; /* yellowish background */
+  padding: 20px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Submenu styling */
+.menu-header-container ul.sub-menu {
+  display: none;
+  position: absolute;
+  background: #fff;
+  padding: 10px 0;
+  margin: 0;
+  list-style: none;
+  min-width: 200px;
+  z-index: 999;
+}
+
+/* Show submenu on hover */
+.menu-header-container li:hover > ul.sub-menu {
+  display: block;
+}
+
+/* Add dropdown arrow after parent menu items */
+.menu-item-has-children > a::after {
+  content: " ▼"; /* Down arrow */
+  font-size: 0.7em;
+  margin-left: 5px;
+}
+
+/* Submenu links */
+.menu-header-container ul.sub-menu li {
+  margin: 8px 15px;
+}
+
+.menu-header-container ul.sub-menu li a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+
+.menu-header-container ul.sub-menu li a:hover {
+  background: #f8f9fa;
+  color: #198754; /* Bootstrap green */
+}
+
+/* Ensure parent is relative */
+.menu-header-container li {
+  position: relative;
+}
+
+/* Hide submenu in footer by default */
+#tempaltemo_footer .sub-menu {
+  display: none;
+  position: absolute; /* optional, if you want dropdown look */
+  background: #222; /* adjust footer background */
+  border-radius: 5px;
+  z-index: 100;
+}
+
+/* Show submenu on hover in footer */
+#tempaltemo_footer .menu-item-has-children:hover > .sub-menu {
+  display: block;
+}
+
+.is-style-section-1 {
+  background-color: cornsilk;
+}
+
+.products-filter .nav-pills {
+  height: 180px;
+}
+
+.products-filter .nav-pills .nav-link {
+  color: #333;
+  border-radius: 0; /* keep flat if you want underline style */
+  transition: all 0.3s ease;
+}
+
+.products-filter .nav-pills .nav-link:hover {
+  color: #0073aa; /* WordPress blue */
+  padding: 10px;
+}
+
+.products-filter .nav-pills .nav-link.active {
+  color: #000000; /* text color */
+  background-color: #ffffff; /* background color */
+  text-decoration: underline; /* underline effect */
+  margin-left: 5px;
+}
+
+.mepw-posts-list .mepw-list-item {
+  margin-bottom: 20px;
+}
+.mepw-posts-list .mepw-post {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+.mepw-posts-list .mepw-post-thumbnail img {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+}
