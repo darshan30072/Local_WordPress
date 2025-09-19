@@ -39,3 +39,14 @@
   background-color: lightgrey;
   padding: 10px 20px;
 }
+.elementor-676 .elementor-element.elementor-element-66161548 {
+  padding: 0%;
+}
+.e-con-inner {
+    gap: var(--row-gap) var(--column-gap);
+    height: 100%;
+    max-width: var(--content-width);
+    padding-inline-end: 0;
+    padding-inline-start: 0;
+    width: 100%;
+}

@@ -26,6 +26,9 @@ Table of contents
 --------------------------------------------- */
 
 /* Typography */
+body.elementor-page-676 {
+    margin: 0px !important;
+}
 body,
 ul,
 li,
@@ -291,13 +294,13 @@ div {
 }
 
 @media (min-width: 576px) {
-  .tempaltemo-carousel .h1 { 
+  .tempaltemo-carousel .h1 {
     font-size: 1em !important;
   }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -465,4 +468,17 @@ body.page-about_us .site-main {
   width: 150px;
   height: auto;
   object-fit: cover;
+}
+.elementor-676 .elementor-element.elementor-element-66161548 {
+  padding: 0%;
+}
+.e-con>.e-con-inner {
+    gap: var(--row-gap) var(--column-gap);
+    height: 100%;
+    margin: 20px 0 !important;
+    max-width: var(--content-width);
+    width: 100%;
+}
+.elementor-676 .elementor-element.elementor-element-10af8c0a {
+  margin: 0 !important;
 }
